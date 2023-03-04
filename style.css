@@ -1,0 +1,33 @@
+#container {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#gracz {
+    float: left;
+}
+
+#przeciwnik {
+    position: absolute;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    left: 200%;
+    top: 50%;
+    width: 10;
+    height: 10;
+    float: left;
+}
+
+#winstatus {
+    margin: 0;
+    position: absolute;
+    top: 15%;
+    left: 65%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+}
